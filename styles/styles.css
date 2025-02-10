@@ -82,16 +82,10 @@ a {
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: start;
+    justify-content: center;
+    min-height: 100svh;
     max-width: 500px;
     margin: auto;
     padding-left: 4px; padding-right: 4px;
     gap: 1.5rem;
-}
-
-.wrapper {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
