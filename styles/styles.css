@@ -25,6 +25,7 @@ a {
 .nav-link {
     padding: 2px;
     text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 .nav-link:hover {
     color: var(--text-light);
@@ -50,19 +51,21 @@ a {
 }
 
 #wizard-cat {
-    width: 100px;
+    width: 120px;
     border: 2px solid var(--text-dark);
 }
 
 .site-title-header {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: end;
+    justify-content: space-between;
+    flex-grow: 1;
     gap: 1rem;
     margin-bottom: 1rem;
 }
 
 .page-content-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
