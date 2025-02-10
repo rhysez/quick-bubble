@@ -39,7 +39,7 @@ a {
 
 #site-title {
     margin: 0;
-    font-weight: lighter;
+    font-weight: bold;
     color: var(--text-dark);
     padding: 4px;
 }
@@ -59,6 +59,7 @@ a {
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .page-content-container {
@@ -70,4 +71,5 @@ a {
     max-width: 500px;
     margin: auto;
     padding-left: 4px; padding-right: 4px;
+    gap: 1.5rem;
 }
