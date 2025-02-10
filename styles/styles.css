@@ -83,9 +83,15 @@ a {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    min-height: 100svh;
+    min-height: 100vh;
     max-width: 500px;
     margin: auto;
     padding-left: 4px; padding-right: 4px;
     gap: 1.5rem;
+}
+
+@media (max-width: 550px) {
+    article {
+        font-size: smaller;
+    }
 }
