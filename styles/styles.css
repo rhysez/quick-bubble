@@ -17,15 +17,57 @@ body {
     color: var(--text-dark);
 }
 
+a {
+    text-decoration: none;
+    color: var(--text-dark);
+}
+
+.nav-link {
+    padding: 2px;
+    text-decoration: underline;
+}
+.nav-link:hover {
+    color: var(--text-light);
+    background-color: var(--background-light);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
 #site-title {
     margin: 0;
     font-weight: lighter;
+    color: var(--text-dark);
+    padding: 4px;
+}
+
+#site-title:hover {
+    background-color: var(--background-light);
+    color: var(--text-light);
+}
+
+#wizard-cat {
+    width: 100px;
+    border: 2px solid var(--text-dark);
+}
+
+.site-title-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .page-content-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: start;
     min-height: 100vh;
+    max-width: 500px;
+    margin: auto;
+    padding-left: 4px; padding-right: 4px;
 }
