@@ -76,17 +76,26 @@ a {
     flex-grow: 1;
     gap: 1rem;
     margin-bottom: 1rem;
+    position: absolute;
+    top: 18%;
 }
 
 .page-content-container {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
     min-height: 100vh;
     max-width: 500px;
     margin: auto;
     padding-left: 4px; padding-right: 4px;
     gap: 1.5rem;
+}
+
+.main-content {
+    position: absolute;
+    top: 35%;
+}
+
+@media (max-width: 420px) {
+    .main-content {
+        top: 40%;
+    }
 }
